@@ -18,7 +18,7 @@ function App() {
     <div className="App">
         <PrimarySearchAppBar/>
       <div className={classes.root}>
-      <Grid container spacing={0}>
+      <Grid container spacing={2}>
         <Grid item xs={3}>
           <SimpleCard/>
         </Grid>
