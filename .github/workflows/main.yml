@@ -30,4 +30,4 @@ jobs:
      
      #Deploy surge
       - name: Deploy surge 
-        run: surge ./build cpaas.com.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build cpaas.surge.sh --token ${{ secrets.SURGE_TOKEN }}
