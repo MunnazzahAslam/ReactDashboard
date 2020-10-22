@@ -26,8 +26,7 @@ const useStyles = makeStyles({
 
 export default function SimpleCard() {
   const classes = useStyles();
-  const bull = <span className={classes.bullet}>•</span>;
-
+ 
   return (
     <Card style={{marginTop: '150px', marginLeft:'50px', height: '200px', width:'350px'}} className={classes.root}>
       <CardContent>
