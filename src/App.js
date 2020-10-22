@@ -18,7 +18,7 @@ function App() {
     <div className="App">
         <PrimarySearchAppBar/>
       <div className={classes.root}>
-      <Grid container spacing={5}>
+      <Grid container spacing={5} style={{alignItems="center"}}>
         <Grid item xs={3}>
           <SimpleCard/>
         </Grid>
@@ -34,7 +34,7 @@ function App() {
       </Grid>
       </div>
       <br/>
-      <Grid container spacing={1}>
+      <Grid container spacing={1} style={{alignItems="center"}}>
       <Grid item xs={6}>
         <BasicTable/>
       </Grid>
