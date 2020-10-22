@@ -28,7 +28,7 @@ export default function SimpleCard() {
   const classes = useStyles();
  
   return (
-    <Card style={{marginTop: '150px', marginLeft:'50px', height: '200px', width:'350px'}} className={classes.root}>
+    <Card style={{marginTop: '50px', height: '200px', width:'20%'}} className={classes.root}>
       <CardContent>
         <div style={{position:'relative'}}>
       <TimelineIcon style={{ 
